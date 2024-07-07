@@ -16,6 +16,7 @@ export default function WhoWeAreImage() {
                     width={300}
                     height={300}
                     alt=""
+                    priority={true}
                 />
             </div>
         </div>
