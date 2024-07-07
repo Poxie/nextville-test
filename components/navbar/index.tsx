@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../button";
 
 const NAVBAR_TABS = [
     { text: 'About us', href: '/about' },
@@ -27,11 +28,11 @@ export default function Navbar() {
                         </li>
                     ))}
                 </ul>
-                <button
-                    className="px-4 py-3 rounded-md border-[1px] border-light"
+                <Button
+                    type="light"
                 >
                     Work with us
-                </button>
+                </Button>
             </nav>
         </header>
     )

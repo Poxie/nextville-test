@@ -11,6 +11,7 @@ const config: Config = {
       backgroundColor: {
         dark: '#000',
         light: '#fff',
+        'light-secondary': '#F2F2F2',
         'c-primary': '#dfb373',
       },
       textColor: {
@@ -19,9 +20,10 @@ const config: Config = {
       },
       borderColor: {
         light: '#fff',
+        dark: '#000',
       },
       width: {
-        main: '1000px',
+        main: '1100px',
       },
       maxWidth: {
         main: '90%',
@@ -31,8 +33,18 @@ const config: Config = {
       },
       fill: {
         light: '#fff',
+        'light-secondary': '#F2F2F2',
         'c-primary': '#dfb373',
       },
+      animation: {
+        bubble: 'bubble 5s infinite',
+      },
+      keyframes: {
+        bubble: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5px)' },
+        }
+      }
     },
   },
   plugins: [],

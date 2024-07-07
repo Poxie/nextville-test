@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-light-secondary text-dark;
+  }
+}
+
 @layer utilities {
   .main-width {
     @apply w-main max-w-main mx-auto;
+  }
+  .animate-delay-1 {
+    animation-delay: 0.1s;
+  }
+  .animate-delay-2 {
+    animation-delay: 0.9s;
+  }
+  .animate-delay-3 {
+    animation-delay: 0.4s;
   }
 }
