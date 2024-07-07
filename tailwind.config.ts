@@ -15,6 +15,7 @@ const config: Config = {
       },
       textColor: {
         light: '#fff',
+        dark: '#000',
       },
       borderColor: {
         light: '#fff',
