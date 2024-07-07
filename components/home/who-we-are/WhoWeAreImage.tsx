@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function WhoWeAreImage() {
     return(
-        <div className="relative aspect-square">
+        <div className="w-[80%] sm:w-[unset] relative aspect-square">
             <ThoughtPieceIllustration className="w-5 absolute -left-1 -top-14 sm:-left-16 sm:-top-12 lg:-top-6 text-light animate-bubble animate animate-delay-1" />
             <ThoughtPieceIllustration className="w-7 absolute -left-10 -top-10 sm:-left-10 lg:-left-9 sm:-top-8 lg:-top-10 text-light animate-bubble animate-delay-2" />
             <ThoughtPieceIllustration className="w-10 absolute -top-3 -left-5 sm:left-[unset] sm:-top-6 text-light animate-bubble animate-delay-3" />
