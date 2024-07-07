@@ -30,7 +30,7 @@ export default function HomeValueItem({ children, reversed }: {
             if(translateValue > 100) translateValue = 100;
             if(translateValue < -100) translateValue = -100;
 
-            ref.current.style.transform = `translateX(${translateValue}%)`;
+            ref.current.style.transform = `translate3d(${translateValue}%, 0, 0)`;
         }
         onScroll();
 
