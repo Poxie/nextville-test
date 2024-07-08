@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return(
-        <footer className="pt-36 pb-12 relative flex flex-col items-center gap-5 bg-dark">
+        <footer className="pt-16 xl:pt-36 pb-12 relative flex flex-col items-center gap-5 bg-dark">
             <WaveIllustration 
                 className="absolute top-[-1px] rotate-180"
                 pathClassName="fill-light-secondary"
