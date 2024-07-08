@@ -3,9 +3,9 @@ import HeroIllustration from "./HeroIllustration";
 
 export default function HomeHero() {
     return(
-        <section className="h-[115vh] sm:h-[85vh] flex items-center justify-center bg-dark text-light">
-            <div className="main-width -mt-[5.1vw] sm:flex items-center justify-between gap-16">
-                <div className="w-[550px] max-w-full mb-8 sm:mb-0">
+        <section className="h-[115vh] sm:h-[90vh] flex items-center justify-center bg-dark text-light">
+            <div className="main-width -mt-[3.1vw] sm:flex items-center justify-between gap-16">
+                <div className="w-[550px] max-w-full mb-12 sm:mb-0">
                     <div className="relative flex justify-center">
                         <h1 className="relative flex flex-wrap gap-3 text-4xl lg:text-6xl font-bold">
                             We invest in a
@@ -19,7 +19,7 @@ export default function HomeHero() {
                             future.
                         </h1>
                     </div>
-                    <p className="mt-4 text-lg sm:mt-6 sm:text-xl font-light">
+                    <p className="text-lg mt-6 sm:text-xl font-light">
                         We truly believe in the mission of the companies we invest in. And above that, we truly believe in you as the person to make the company succeed.
                     </p>
                 </div>
