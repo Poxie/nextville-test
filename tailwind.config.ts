@@ -12,11 +12,12 @@ const config: Config = {
         dark: '#000',
         light: '#fff',
         'light-secondary': '#F2F2F2',
-        'c-primary': '#dfb373',
+        'c-primary': '#7F9BCD',
       },
       textColor: {
         light: '#fff',
         dark: '#000',
+        'c-primary': '#7F9BCD',
       },
       borderColor: {
         light: '#fff',
@@ -35,7 +36,7 @@ const config: Config = {
         dark: '#000',
         light: '#fff',
         'light-secondary': '#F2F2F2',
-        'c-primary': '#dfb373',
+        'c-primary': '#7F9BCD',
       },
       animation: {
         bubble: 'bubble 5s infinite',
