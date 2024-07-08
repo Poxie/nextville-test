@@ -4,7 +4,7 @@ import WhoWeAre from "./who-we-are";
 
 export default function Home() {
     return(
-        <main className="h-[500vh]">
+        <main>
             <HomeHero />
             <WhoWeAre />
             <HomeValues />

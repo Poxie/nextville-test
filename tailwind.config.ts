@@ -32,6 +32,7 @@ const config: Config = {
         section: '5.25rem 0'
       },
       fill: {
+        dark: '#000',
         light: '#fff',
         'light-secondary': '#F2F2F2',
         'c-primary': '#dfb373',

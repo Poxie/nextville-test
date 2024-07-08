@@ -6,8 +6,8 @@ type Props = {
 }
 const WaveIllustration = React.forwardRef<SVGSVGElement, Props>(({ className, pathClassName }, ref) => {
     return(
-        <svg ref={ref} className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 103" fill="none">
-            <path className={pathClassName} d="M720 0C363.5 -2.65461e-05 0 103 0 103H1440C1440 103 1076.5 2.65461e-05 720 0Z"/>
+        <svg ref={ref} className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 74" fill="none">
+            <path className={pathClassName} d="M717 0C360.5 -2.65461e-05 0 74 0 74H1440C1440 74 1073.5 2.65461e-05 717 0Z" />
         </svg>
     )
 })
