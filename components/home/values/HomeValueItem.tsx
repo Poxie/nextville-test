@@ -42,7 +42,7 @@ export default function HomeValueItem({ children, reversed }: {
     return(
         <div 
             style={{ left: defaultTranslateValue }}
-            className="py-8 relative text-2xl text-light text-center bg-dark"
+            className="py-10 relative text-2xl text-light text-center bg-dark"
             ref={ref}
         >
             {children}
