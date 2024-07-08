@@ -3,7 +3,7 @@ import HeroIllustration from "./HeroIllustration";
 
 export default function HomeHero() {
     return(
-        <section className="h-[105vh] sm:h-[85vh] flex items-center justify-center bg-dark text-light">
+        <section className="h-[115vh] sm:h-[85vh] flex items-center justify-center bg-dark text-light">
             <div className="main-width -mt-[5.1vw] sm:flex items-center justify-between gap-16">
                 <div className="w-[550px] max-w-full mb-8 sm:mb-0">
                     <div className="relative flex justify-center">
