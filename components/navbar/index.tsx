@@ -8,10 +8,11 @@ const NAVBAR_TABS = [
 ]
 export default function Navbar() {
     return(
-        <header className="p-5 absolute w-full flex justify-between text-light">
+        <header className="py-6 sm:p-6 main-width sm:w-full sm:max-w-[unset] absolute left-2/4 -translate-x-2/4 flex items-center justify-between text-light">
             <Image 
+                className="sm:-mt-4"
                 src="/logo.png"
-                width={136}
+                width={137}
                 height={39}
                 alt="logo"
             />
