@@ -17,11 +17,17 @@ export type ModelCard = typeof MODEL_CARDS[0];
 
 const HEADER_TEXT = 'Vår företagsmodell';
 export default function HomeModel() {
+    const headerRef = useRef<HTMLHeadingElement>(null);
+
     return(
         <section className="main-width p-section">
-            <h2 className="flex justify-center flex-wrap text-c-primary text-5xl text-center uppercase font-bold">
+            <h2 
+                className="flex justify-center flex-wrap text-c-primary text-5xl text-center uppercase font-bold"
+                ref={headerRef}
+            >
                 {HEADER_TEXT.split('').map((letter, index) => (
                     <ModelHeaderLetter
+                        siblingRef={headerRef}
                         letter={letter} 
                         index={index}
                         key={index}

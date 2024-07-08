@@ -1,14 +1,15 @@
 import useAnimateIntoView from "@/hooks/useAnimateIntoView";
-import { useRef } from "react";
+import { RefObject, useRef } from "react";
 import { twMerge } from "tailwind-merge";
 
-export default function ModelHeaderLetter({ letter, index }: {
+export default function ModelHeaderLetter({ letter, index, siblingRef }: {
     letter: string;
     index: number;
+    siblingRef: RefObject<HTMLHeadingElement>;
 }) {
     const ref = useRef<HTMLSpanElement>(null);
 
-    const { initialState } = useAnimateIntoView(ref, { delay: index * 35, hideOnScroll: true });
+    const { initialState } = useAnimateIntoView(ref, { delay: index * 35, hideOnScroll: true, siblingRef });
 
     if(letter === ' ') {
         return(
