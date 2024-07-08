@@ -24,5 +24,6 @@ const SectionHeader = React.forwardRef<HTMLDivElement, Props>(({ children, class
         </div>
     )
 });
+SectionHeader.displayName = 'SectionHeader';
 
 export default SectionHeader;
