@@ -18,13 +18,18 @@ export default function Navbar() {
     return(
         <header className="py-6 lg:p-6 w-full z-20 fixed left-2/4 -translate-x-2/4 text-light bg-dark shadow-lg">
             <div className="main-width lg:max-w-full flex items-center justify-between">
-                <Image 
-                    className="-mt-2 sm:-mt-4"
-                    src="/logo.png"
-                    width={137}
-                    height={39}
-                    alt="logo"
-                />
+                <Link
+                    href="/"
+                    aria-label="Go to homepage"
+                >
+                    <Image 
+                        className="-mt-2 sm:-mt-4"
+                        src="/logo.png"
+                        width={137}
+                        height={39}
+                        alt="logo"
+                    />
+                </Link>
                 <button
                     onClick={toggleMenu}
                     className="-m-1 p-1 block sm:hidden hover:bg-light/10 rounded"
