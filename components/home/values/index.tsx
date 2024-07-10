@@ -12,7 +12,7 @@ export default function HomeValues() {
     useAnimateIntoView(subHeaderRef, { siblingRef: headerRef, threshold: .9, delay: 100, hideOnScroll: true });
 
     return(
-        <section className="p-section">
+        <section className="p-section pb-[1px]">
             <div className="mb-12 main-width text-center">
                 <SectionHeader
                     style={initialState}

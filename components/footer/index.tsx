@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Footer() {
     return(
-        <footer className="pt-16 xl:pt-36 pb-12 relative flex flex-col items-center gap-5 bg-dark">
-            <WaveIllustration 
+        <footer className="py-12 relative flex flex-col items-center gap-5 bg-dark">
+            {/* <WaveIllustration 
                 className="absolute top-[-1px] rotate-180"
                 pathClassName="fill-light-secondary"
-            />
+            /> */}
             <Image 
                 src="/logo-with-text.png"
                 width={129}

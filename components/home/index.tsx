@@ -8,8 +8,8 @@ export default function Home() {
         <main>
             <HomeHero />
             <WhoWeAre />
-            <HomeValues />
             <HomeModel />
+            <HomeValues />
         </main>
     )
 }
